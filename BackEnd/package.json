@@ -2,11 +2,11 @@
   "name": "cloit-backend",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Abdisa Dev",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build": "pnpm install && nest build && npx prisma generate",
+    "build": "npm install && nest build && npx prisma generate",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
